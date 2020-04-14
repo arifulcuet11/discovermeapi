@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WebApp.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.DataProtection.Abstractions": "3.1.2"
+        },
+        "runtime": {
+          "WebApp.Utility.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.DataProtection.Abstractions/3.1.2": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.6801"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApp.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.DataProtection.Abstractions/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TFFK5jAvnnUJBy5q0z6hK4fu0ZxtoziDxKlEfnEOs0SXJmEE4i05+YaYXzibVvg5HEUJKTlB8i4t8wAOWagBBg==",
+      "path": "microsoft.aspnetcore.dataprotection.abstractions/3.1.2",
+      "hashPath": "microsoft.aspnetcore.dataprotection.abstractions.3.1.2.nupkg.sha512"
+    }
+  }
+}
